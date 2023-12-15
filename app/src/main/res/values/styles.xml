@@ -1,0 +1,69 @@
+<resources>
+
+
+    <style name="AppTheme" parent="MyThemeBlue"></style>
+<!--    <style name="AppTheme" parent="ToolbarStyle"></style>-->
+
+    <!-- 蓝色为主色调 -->
+    <style name="MyThemeBlue" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!--选中状态icon的颜色和字体颜色-->
+        <item name="colorPrimary">@color/green_light</item>
+        <item name="colorPrimaryDark">@color/theme_green</item>
+        <item name="colorAccent">@color/white</item>
+        <!--正常状态下字体颜色和icon颜色-->
+        <item name="android:textColorPrimary">@color/black</item>
+
+    </style>
+
+    <!-- expandedTitleTextAppearance Title -->
+    <style name="expandedTitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="AppTheme.RoundedCornerMaterialButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_shape</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+    <style name="AppTheme.DatePicker" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/red_base</item>
+        <item name="android:textColorPrimaryInverse">@color/yellow</item>
+    </style>
+    <style name="AppTheme.CheckedTextView.RadioButton" parent="@style/AppTheme.CheckedTextView">
+        <item name="android:textSize">@dimen/text_secondary</item>
+       <!-- <item name="android:background">@drawable/btn_color_white_full</item>-->
+        <item name="android:layout_height">@dimen/text_tile_height</item>
+    </style>
+    <style name="AppTheme.CheckedTextView" parent="@style/AppTheme">
+        <item name="android:textSize">@dimen/text_primary</item>
+        <item name="android:textColor">@color/selector_text</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:paddingLeft">?android:listPreferredItemPaddingLeft</item>
+        <item name="android:paddingRight">?android:listPreferredItemPaddingRight</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">?android:listPreferredItemHeight</item>
+        <item name="android:drawablePadding">@dimen/activity_horizontal_padding</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

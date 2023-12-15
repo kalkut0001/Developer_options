@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Developer options" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+        <Button android:id="@+id/the_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:text="Open developer option"
+            android:textColor="#ffffffff"
+            android:background="#ff7e51c2"
+            />
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtview11"-->
+<!--            android:layout_below="@+id/the_button"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Developer Options menu"-->
+<!--            android:textColor="@color/red_base"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtview12"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_below="@+id/txtview11"-->
+<!--            android:layout_marginTop="15sp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/red_base"-->
+<!--            android:text="Usb debgging"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtview13"-->
+<!--            android:layout_below="@+id/txtview12"-->
+<!--            android:layout_marginTop="15sp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:paddingRight="20sp"-->
+<!--            android:paddingLeft="20sp"-->
+<!--            android:textColor="@color/main_black_grey"-->
+<!--            android:text="Usb debgging"/>-->
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
